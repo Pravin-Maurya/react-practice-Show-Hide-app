@@ -1,0 +1,108 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+@media screen and (min-width: 576px) {
+  .bg-container {
+    height: 100vh;
+  }
+}
+.show-heading {
+  font-family: 'Roboto';
+  font-size: 40px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 30px;
+}
+@media screen and (min-width: 576px) {
+  .show-heading {
+    font-size: 50px;
+    margin-top: 50px;
+  }
+}
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 576px) {
+  .btn-container {
+    flex-direction: row;
+  }
+}
+.btn-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 200px;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+.name-btn {
+  background-color: #ffffff;
+  color: #dd1264;
+  padding: 5px;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-size: 22px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  border-style: none;
+}
+
+@media screen and (min-width: 576px) {
+  .name-container {
+    flex-direction: row;
+  }
+}
+.first-name {
+  background-color: #fddddb;
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: 500;
+  padding: 20px;
+  border-radius: 8px;
+  height: 200px;
+  width: 300px;
+  text-align: center;
+}
+@media screen and (min-width: 576px) {
+  .first-name {
+    align-self: flex-start;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+.last-name {
+  background-color: #fddddb;
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: 500;
+  padding: 20px;
+  border-radius: 8px;
+  height: 200px;
+  width: 300px;
+  text-align: center;
+}
+@media screen and (min-width: 576px) {
+  .last-name {
+    align-self: flex-end;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
